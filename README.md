@@ -63,13 +63,13 @@ This project uses **Time Series Forecasting** to help retailers:
 ## 📁 Project Structure
 
 Retail-Sales-Forecasting/
-├── retail_sales_dataset.csv
-├── Retail_Sales_Forecasting.ipynb
-├── requirements.txt
-├── README.md
-└── output/
-└── forecast_plot.png
-
+├── retail_sales_dataset.csv              # Source retail sales data
+├── Retail_Sales_Forecasting.ipynb        # Main notebook with SARIMA modeling
+├── requirements.txt                      # Python dependencies
+├── README.md                             # Project documentation
+└── output/                               # Output visualizations
+    └── forecast_plot.png                 # Sales forecast graph
+    
 ---
 
 ## 🚀 How to Run
@@ -83,9 +83,14 @@ pip install -r requirements.txt
 
 # Launch Jupyter Notebook
 jupyter notebook Retail_Sales_Forecasting.ipynb
+
+---
+
 📊 MAPE Score
 The SARIMA model achieved a MAPE of ~72.20%.
 With more historic data, this accuracy can be significantly improved.
+
+---
 
 👨‍💻 Author
 Made by Parv Sirohi
